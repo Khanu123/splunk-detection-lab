@@ -1,0 +1,5 @@
+index=auth sourcetype=authentication action=failure
+| bin _time span=15m
+| stats count as failures values(host) as hosts by _time, src_ip, user
+| where failures >= 4
+| sort - failures

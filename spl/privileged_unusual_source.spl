@@ -1,0 +1,4 @@
+index=auth sourcetype=authentication action=success privileged=true
+| eval internal_source=if(cidrmatch("10.0.0.0/8", src_ip), "yes", "no")
+| where internal_source="no"
+| table _time, src_ip, user, host, logon_type

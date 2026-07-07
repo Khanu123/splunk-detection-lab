@@ -1,0 +1,14 @@
+[
+  {"timestamp":"2026-07-07T09:00:00","src_ip":"198.51.100.44","user":"admin","host":"web-01","action":"failure","logon_type":"ssh","privileged":true},
+  {"timestamp":"2026-07-07T09:00:20","src_ip":"198.51.100.44","user":"admin","host":"web-01","action":"failure","logon_type":"ssh","privileged":true},
+  {"timestamp":"2026-07-07T09:00:41","src_ip":"198.51.100.44","user":"admin","host":"web-01","action":"failure","logon_type":"ssh","privileged":true},
+  {"timestamp":"2026-07-07T09:01:03","src_ip":"198.51.100.44","user":"admin","host":"web-01","action":"failure","logon_type":"ssh","privileged":true},
+  {"timestamp":"2026-07-07T09:01:31","src_ip":"198.51.100.44","user":"admin","host":"web-01","action":"success","logon_type":"ssh","privileged":true},
+  {"timestamp":"2026-07-07T10:10:00","src_ip":"203.0.113.77","user":"alice","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T10:10:03","src_ip":"203.0.113.77","user":"ben","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T10:10:07","src_ip":"203.0.113.77","user":"chloe","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T10:10:10","src_ip":"203.0.113.77","user":"devon","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T10:10:13","src_ip":"203.0.113.77","user":"erin","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T10:10:16","src_ip":"203.0.113.77","user":"fatima","host":"vpn-gw","action":"failure","logon_type":"vpn","privileged":false},
+  {"timestamp":"2026-07-07T11:25:00","src_ip":"10.0.5.20","user":"service_backup","host":"backup-01","action":"success","logon_type":"service","privileged":true}
+]
