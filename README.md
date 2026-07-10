@@ -1,4 +1,4 @@
-# Splunk Detection Lab
+﻿# Splunk Detection Lab
 
 ![Focus](https://img.shields.io/badge/Focus-Splunk%20Detection-blue)
 ![Role](https://img.shields.io/badge/Role-SOC%20Analyst-green)
@@ -9,6 +9,16 @@ Splunk Detection Lab is a defensive SIEM project that shows how I would build, d
 ## Screenshot
 
 ![Splunk Detection Lab report preview](docs/screenshots/report-preview.png)
+
+## Employer Review
+
+| Area | Evidence |
+| --- | --- |
+| Target role | SOC Analyst / SIEM Analyst |
+| Strongest proof | SPL detections, synthetic authentication logs, analyst playbook, tests |
+| Start here | [docs/analyst-playbook.md](docs/analyst-playbook.md) |
+| Deeper review | [docs/employer-review.md](docs/employer-review.md) |
+| Roadmap | [docs/roadmap.md](docs/roadmap.md) |
 
 The project uses safe synthetic authentication logs and includes:
 
@@ -61,3 +71,4 @@ PRIVILEGED_UNUSUAL_SOURCE: admin from 198.51.100.44
 ## Responsible Use
 
 This project is defensive and uses synthetic logs only. It does not perform scanning, credential attacks, exploitation, or interaction with live systems.
+
