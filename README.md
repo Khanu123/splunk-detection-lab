@@ -6,6 +6,10 @@
 
 Splunk Detection Lab is a defensive SIEM project that shows how I would build, document, and validate beginner-friendly SOC detections using Splunk SPL.
 
+## Screenshot
+
+![Splunk Detection Lab report preview](docs/screenshots/report-preview.png)
+
 The project uses safe synthetic authentication logs and includes:
 
 - SPL searches for common SOC scenarios.
