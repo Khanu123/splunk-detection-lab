@@ -24,8 +24,8 @@ The project uses safe synthetic authentication logs and includes:
 
 - SPL searches for common SOC scenarios.
 - Sample Windows/Linux-style authentication events.
-- Python validation logic to prove the detection ideas work on sample data.
-- Unit tests for brute-force, password spray, privileged login, and suspicious source detection.
+- Time-windowed Python validation logic that proves the detection ideas work on sample data.
+- Unit tests covering positive detections, event ordering, time-window boundaries, and malformed sources.
 - Analyst notes covering evidence, false positives, and triage actions.
 
 ## Why This Helps Employers
@@ -67,6 +67,11 @@ PRIVILEGED_UNUSUAL_SOURCE: admin from 198.51.100.44
 | `src/splunk_detection_lab/detector.py` | Local validation logic |
 | `tests/` | Unit tests for detection behavior |
 | `docs/analyst-playbook.md` | Triage notes and false-positive handling |
+| `docs/examples/example_detection_report.md` | Reproducible report generated from the included 12 events |
+
+## Evidence Scope
+
+The included dataset contains **12 synthetic authentication events** and validates **three SPL detection use cases**. The preview and example report are based on that exact dataset; no production event counts are claimed.
 
 ## Responsible Use
 
